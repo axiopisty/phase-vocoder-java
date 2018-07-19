@@ -16,7 +16,7 @@ public class Main {
     ICaller pv;
     // if (selection == 0) {
     JFileChooser chooser = new JFileChooser();
-    chooser.setDialogTitle("Choose a WAVE File");
+    chooser.setDialogTitle("Choose an MP3 or WAVE File");
     chooser.setFileFilter(new FileNameExtensionFilter("Audio Files (*.wav, *.mp3)", "wav", "mp3"));
     chooser.setAcceptAllFileFilterUsed(false);
     if (chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
